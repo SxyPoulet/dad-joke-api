@@ -1,0 +1,17 @@
+@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Dad Joke Generator";
+}
+
+<h1>Dad Joke Generator 🤓</h1>
+
+<div>
+    <strong>@Model.Joke.Setup</strong><br />
+    <em>@Model.Joke.Punchline</em>
+</div>
+
+<form method="post">
+    @Html.AntiForgeryToken() <!-- 👈 REQUIRED -->
+    <button type="submit">Get Another Joke</button>
+</form>

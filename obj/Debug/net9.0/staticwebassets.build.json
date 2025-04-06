@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "2h7vVdxYdp8eiyRAm0Bx++9gLovA9BcuaNiTjf8SXts=",
+  "Source": "DadJokeApi",
+  "BasePath": "_content/DadJokeApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
